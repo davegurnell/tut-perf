@@ -1,0 +1,983 @@
+dave@Jade ~/d/p/tut-perf> for x in (seq 1 25)
+                              sbt clean
+                              time sbt tut
+                          end
+[info] Loading global plugins from /Users/dave/.sbt/0.13/plugins
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+[info] Loading project definition from /Users/dave/dev/projects/tut-perf/project
+[info] Set current project to tut-perf (in build file:/Users/dave/dev/projects/tut-perf/)
+[success] Total time: 0 s, completed 09-Oct-2016 15:04:51
+[info] Loading global plugins from /Users/dave/.sbt/0.13/plugins
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+[info] Loading project definition from /Users/dave/dev/projects/tut-perf/project
+[info] Set current project to tut-perf (in build file:/Users/dave/dev/projects/tut-perf/)
+[info] Updating {file:/Users/dave/dev/projects/tut-perf/}tut-perf...
+[info] Resolving org.scala-lang#scalap;2.11.8 ...
+[info] Done updating.
+[info] Running tut.TutMain /Users/dave/dev/projects/tut-perf/src/main/tut /Users/dave/dev/projects/tut-perf/target/scala-2.11/tut .*\.(md|markdown|txt|htm|html)
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file1.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file10.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file11.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file12.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file13.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file14.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file15.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file16.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file17.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file18.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file19.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file2.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file3.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file4.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file5.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file6.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file7.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file8.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file9.md
+[success] Total time: 14 s, completed 09-Oct-2016 15:05:09
+       18.73 real        68.84 user         2.09 sys
+[info] Loading global plugins from /Users/dave/.sbt/0.13/plugins
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+[info] Loading project definition from /Users/dave/dev/projects/tut-perf/project
+[info] Set current project to tut-perf (in build file:/Users/dave/dev/projects/tut-perf/)
+[success] Total time: 0 s, completed 09-Oct-2016 15:05:14
+[info] Loading global plugins from /Users/dave/.sbt/0.13/plugins
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+[info] Loading project definition from /Users/dave/dev/projects/tut-perf/project
+[info] Set current project to tut-perf (in build file:/Users/dave/dev/projects/tut-perf/)
+[info] Updating {file:/Users/dave/dev/projects/tut-perf/}tut-perf...
+[info] Resolving org.scala-lang#scalap;2.11.8 ...
+[info] Done updating.
+[info] Running tut.TutMain /Users/dave/dev/projects/tut-perf/src/main/tut /Users/dave/dev/projects/tut-perf/target/scala-2.11/tut .*\.(md|markdown|txt|htm|html)
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file1.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file10.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file11.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file12.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file13.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file14.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file15.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file16.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file17.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file18.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file19.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file2.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file3.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file4.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file5.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file6.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file7.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file8.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file9.md
+[success] Total time: 14 s, completed 09-Oct-2016 15:05:33
+       18.83 real        71.96 user         2.15 sys
+[info] Loading global plugins from /Users/dave/.sbt/0.13/plugins
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+[info] Loading project definition from /Users/dave/dev/projects/tut-perf/project
+[info] Set current project to tut-perf (in build file:/Users/dave/dev/projects/tut-perf/)
+[success] Total time: 0 s, completed 09-Oct-2016 15:05:38
+[info] Loading global plugins from /Users/dave/.sbt/0.13/plugins
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+[info] Loading project definition from /Users/dave/dev/projects/tut-perf/project
+[info] Set current project to tut-perf (in build file:/Users/dave/dev/projects/tut-perf/)
+[info] Updating {file:/Users/dave/dev/projects/tut-perf/}tut-perf...
+[info] Resolving org.scala-lang#scalap;2.11.8 ...
+[info] Done updating.
+[info] Running tut.TutMain /Users/dave/dev/projects/tut-perf/src/main/tut /Users/dave/dev/projects/tut-perf/target/scala-2.11/tut .*\.(md|markdown|txt|htm|html)
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file1.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file10.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file11.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file12.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file13.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file14.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file15.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file16.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file17.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file18.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file19.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file2.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file3.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file4.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file5.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file6.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file7.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file8.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file9.md
+[success] Total time: 15 s, completed 09-Oct-2016 15:05:58
+       20.01 real        74.75 user         2.21 sys
+[info] Loading global plugins from /Users/dave/.sbt/0.13/plugins
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+[info] Loading project definition from /Users/dave/dev/projects/tut-perf/project
+[info] Set current project to tut-perf (in build file:/Users/dave/dev/projects/tut-perf/)
+[success] Total time: 0 s, completed 09-Oct-2016 15:06:03
+[info] Loading global plugins from /Users/dave/.sbt/0.13/plugins
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+[info] Loading project definition from /Users/dave/dev/projects/tut-perf/project
+[info] Set current project to tut-perf (in build file:/Users/dave/dev/projects/tut-perf/)
+[info] Updating {file:/Users/dave/dev/projects/tut-perf/}tut-perf...
+[info] Resolving org.scala-lang#scalap;2.11.8 ...
+[info] Done updating.
+[info] Running tut.TutMain /Users/dave/dev/projects/tut-perf/src/main/tut /Users/dave/dev/projects/tut-perf/target/scala-2.11/tut .*\.(md|markdown|txt|htm|html)
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file1.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file10.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file11.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file12.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file13.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file14.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file15.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file16.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file17.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file18.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file19.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file2.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file3.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file4.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file5.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file6.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file7.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file8.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file9.md
+[success] Total time: 15 s, completed 09-Oct-2016 15:06:22
+       19.54 real        69.71 user         2.21 sys
+[info] Loading global plugins from /Users/dave/.sbt/0.13/plugins
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+[info] Loading project definition from /Users/dave/dev/projects/tut-perf/project
+[info] Set current project to tut-perf (in build file:/Users/dave/dev/projects/tut-perf/)
+[success] Total time: 0 s, completed 09-Oct-2016 15:06:27
+[info] Loading global plugins from /Users/dave/.sbt/0.13/plugins
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+[info] Loading project definition from /Users/dave/dev/projects/tut-perf/project
+[info] Set current project to tut-perf (in build file:/Users/dave/dev/projects/tut-perf/)
+[info] Updating {file:/Users/dave/dev/projects/tut-perf/}tut-perf...
+[info] Resolving org.scala-lang#scalap;2.11.8 ...
+[info] Done updating.
+[info] Running tut.TutMain /Users/dave/dev/projects/tut-perf/src/main/tut /Users/dave/dev/projects/tut-perf/target/scala-2.11/tut .*\.(md|markdown|txt|htm|html)
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file1.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file10.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file11.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file12.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file13.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file14.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file15.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file16.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file17.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file18.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file19.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file2.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file3.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file4.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file5.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file6.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file7.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file8.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file9.md
+[success] Total time: 15 s, completed 09-Oct-2016 15:06:47
+       19.91 real        76.63 user         2.21 sys
+[info] Loading global plugins from /Users/dave/.sbt/0.13/plugins
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+[info] Loading project definition from /Users/dave/dev/projects/tut-perf/project
+[info] Set current project to tut-perf (in build file:/Users/dave/dev/projects/tut-perf/)
+[success] Total time: 0 s, completed 09-Oct-2016 15:06:52
+[info] Loading global plugins from /Users/dave/.sbt/0.13/plugins
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+[info] Loading project definition from /Users/dave/dev/projects/tut-perf/project
+[info] Set current project to tut-perf (in build file:/Users/dave/dev/projects/tut-perf/)
+[info] Updating {file:/Users/dave/dev/projects/tut-perf/}tut-perf...
+[info] Resolving org.scala-lang#scalap;2.11.8 ...
+[info] Done updating.
+[info] Running tut.TutMain /Users/dave/dev/projects/tut-perf/src/main/tut /Users/dave/dev/projects/tut-perf/target/scala-2.11/tut .*\.(md|markdown|txt|htm|html)
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file1.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file10.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file11.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file12.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file13.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file14.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file15.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file16.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file17.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file18.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file19.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file2.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file3.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file4.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file5.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file6.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file7.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file8.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file9.md
+[success] Total time: 14 s, completed 09-Oct-2016 15:07:11
+       19.06 real        74.10 user         2.16 sys
+[info] Loading global plugins from /Users/dave/.sbt/0.13/plugins
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+[info] Loading project definition from /Users/dave/dev/projects/tut-perf/project
+[info] Set current project to tut-perf (in build file:/Users/dave/dev/projects/tut-perf/)
+[success] Total time: 0 s, completed 09-Oct-2016 15:07:15
+[info] Loading global plugins from /Users/dave/.sbt/0.13/plugins
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+[info] Loading project definition from /Users/dave/dev/projects/tut-perf/project
+[info] Set current project to tut-perf (in build file:/Users/dave/dev/projects/tut-perf/)
+[info] Updating {file:/Users/dave/dev/projects/tut-perf/}tut-perf...
+[info] Resolving org.scala-lang#scalap;2.11.8 ...
+[info] Done updating.
+[info] Running tut.TutMain /Users/dave/dev/projects/tut-perf/src/main/tut /Users/dave/dev/projects/tut-perf/target/scala-2.11/tut .*\.(md|markdown|txt|htm|html)
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file1.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file10.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file11.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file12.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file13.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file14.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file15.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file16.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file17.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file18.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file19.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file2.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file3.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file4.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file5.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file6.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file7.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file8.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file9.md
+[success] Total time: 15 s, completed 09-Oct-2016 15:07:35
+       19.69 real        72.30 user         2.11 sys
+[info] Loading global plugins from /Users/dave/.sbt/0.13/plugins
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+[info] Loading project definition from /Users/dave/dev/projects/tut-perf/project
+[info] Set current project to tut-perf (in build file:/Users/dave/dev/projects/tut-perf/)
+[success] Total time: 0 s, completed 09-Oct-2016 15:07:40
+[info] Loading global plugins from /Users/dave/.sbt/0.13/plugins
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+[info] Loading project definition from /Users/dave/dev/projects/tut-perf/project
+[info] Set current project to tut-perf (in build file:/Users/dave/dev/projects/tut-perf/)
+[info] Updating {file:/Users/dave/dev/projects/tut-perf/}tut-perf...
+[info] Resolving org.scala-lang#scalap;2.11.8 ...
+[info] Done updating.
+[info] Running tut.TutMain /Users/dave/dev/projects/tut-perf/src/main/tut /Users/dave/dev/projects/tut-perf/target/scala-2.11/tut .*\.(md|markdown|txt|htm|html)
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file1.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file10.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file11.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file12.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file13.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file14.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file15.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file16.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file17.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file18.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file19.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file2.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file3.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file4.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file5.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file6.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file7.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file8.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file9.md
+[success] Total time: 15 s, completed 09-Oct-2016 15:07:59
+       19.49 real        75.25 user         2.23 sys
+[info] Loading global plugins from /Users/dave/.sbt/0.13/plugins
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+[info] Loading project definition from /Users/dave/dev/projects/tut-perf/project
+[info] Set current project to tut-perf (in build file:/Users/dave/dev/projects/tut-perf/)
+[success] Total time: 0 s, completed 09-Oct-2016 15:08:04
+[info] Loading global plugins from /Users/dave/.sbt/0.13/plugins
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+[info] Loading project definition from /Users/dave/dev/projects/tut-perf/project
+[info] Set current project to tut-perf (in build file:/Users/dave/dev/projects/tut-perf/)
+[info] Updating {file:/Users/dave/dev/projects/tut-perf/}tut-perf...
+[info] Resolving org.scala-lang#scalap;2.11.8 ...
+[info] Done updating.
+[info] Running tut.TutMain /Users/dave/dev/projects/tut-perf/src/main/tut /Users/dave/dev/projects/tut-perf/target/scala-2.11/tut .*\.(md|markdown|txt|htm|html)
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file1.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file10.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file11.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file12.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file13.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file14.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file15.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file16.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file17.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file18.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file19.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file2.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file3.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file4.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file5.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file6.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file7.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file8.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file9.md
+[success] Total time: 14 s, completed 09-Oct-2016 15:08:23
+       19.12 real        69.89 user         2.07 sys
+[info] Loading global plugins from /Users/dave/.sbt/0.13/plugins
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+[info] Loading project definition from /Users/dave/dev/projects/tut-perf/project
+[info] Set current project to tut-perf (in build file:/Users/dave/dev/projects/tut-perf/)
+[success] Total time: 0 s, completed 09-Oct-2016 15:08:28
+[info] Loading global plugins from /Users/dave/.sbt/0.13/plugins
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+[info] Loading project definition from /Users/dave/dev/projects/tut-perf/project
+[info] Set current project to tut-perf (in build file:/Users/dave/dev/projects/tut-perf/)
+[info] Updating {file:/Users/dave/dev/projects/tut-perf/}tut-perf...
+[info] Resolving org.scala-lang#scalap;2.11.8 ...
+[info] Done updating.
+[info] Running tut.TutMain /Users/dave/dev/projects/tut-perf/src/main/tut /Users/dave/dev/projects/tut-perf/target/scala-2.11/tut .*\.(md|markdown|txt|htm|html)
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file1.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file10.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file11.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file12.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file13.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file14.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file15.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file16.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file17.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file18.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file19.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file2.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file3.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file4.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file5.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file6.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file7.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file8.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file9.md
+[success] Total time: 15 s, completed 09-Oct-2016 15:08:47
+       19.70 real        73.30 user         2.19 sys
+[info] Loading global plugins from /Users/dave/.sbt/0.13/plugins
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+[info] Loading project definition from /Users/dave/dev/projects/tut-perf/project
+[info] Set current project to tut-perf (in build file:/Users/dave/dev/projects/tut-perf/)
+[success] Total time: 0 s, completed 09-Oct-2016 15:08:52
+[info] Loading global plugins from /Users/dave/.sbt/0.13/plugins
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+[info] Loading project definition from /Users/dave/dev/projects/tut-perf/project
+[info] Set current project to tut-perf (in build file:/Users/dave/dev/projects/tut-perf/)
+[info] Updating {file:/Users/dave/dev/projects/tut-perf/}tut-perf...
+[info] Resolving org.scala-lang#scalap;2.11.8 ...
+[info] Done updating.
+[info] Running tut.TutMain /Users/dave/dev/projects/tut-perf/src/main/tut /Users/dave/dev/projects/tut-perf/target/scala-2.11/tut .*\.(md|markdown|txt|htm|html)
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file1.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file10.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file11.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file12.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file13.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file14.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file15.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file16.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file17.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file18.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file19.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file2.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file3.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file4.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file5.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file6.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file7.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file8.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file9.md
+[success] Total time: 15 s, completed 09-Oct-2016 15:09:12
+       19.55 real        71.04 user         2.13 sys
+[info] Loading global plugins from /Users/dave/.sbt/0.13/plugins
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+[info] Loading project definition from /Users/dave/dev/projects/tut-perf/project
+[info] Set current project to tut-perf (in build file:/Users/dave/dev/projects/tut-perf/)
+[success] Total time: 0 s, completed 09-Oct-2016 15:09:16
+[info] Loading global plugins from /Users/dave/.sbt/0.13/plugins
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+[info] Loading project definition from /Users/dave/dev/projects/tut-perf/project
+[info] Set current project to tut-perf (in build file:/Users/dave/dev/projects/tut-perf/)
+[info] Updating {file:/Users/dave/dev/projects/tut-perf/}tut-perf...
+[info] Resolving org.scala-lang#scalap;2.11.8 ...
+[info] Done updating.
+[info] Running tut.TutMain /Users/dave/dev/projects/tut-perf/src/main/tut /Users/dave/dev/projects/tut-perf/target/scala-2.11/tut .*\.(md|markdown|txt|htm|html)
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file1.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file10.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file11.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file12.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file13.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file14.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file15.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file16.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file17.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file18.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file19.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file2.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file3.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file4.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file5.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file6.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file7.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file8.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file9.md
+[success] Total time: 14 s, completed 09-Oct-2016 15:09:35
+       18.92 real        72.02 user         2.13 sys
+[info] Loading global plugins from /Users/dave/.sbt/0.13/plugins
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+[info] Loading project definition from /Users/dave/dev/projects/tut-perf/project
+[info] Set current project to tut-perf (in build file:/Users/dave/dev/projects/tut-perf/)
+[success] Total time: 0 s, completed 09-Oct-2016 15:09:40
+[info] Loading global plugins from /Users/dave/.sbt/0.13/plugins
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+[info] Loading project definition from /Users/dave/dev/projects/tut-perf/project
+[info] Set current project to tut-perf (in build file:/Users/dave/dev/projects/tut-perf/)
+[info] Updating {file:/Users/dave/dev/projects/tut-perf/}tut-perf...
+[info] Resolving org.scala-lang#scalap;2.11.8 ...
+[info] Done updating.
+[info] Running tut.TutMain /Users/dave/dev/projects/tut-perf/src/main/tut /Users/dave/dev/projects/tut-perf/target/scala-2.11/tut .*\.(md|markdown|txt|htm|html)
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file1.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file10.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file11.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file12.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file13.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file14.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file15.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file16.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file17.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file18.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file19.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file2.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file3.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file4.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file5.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file6.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file7.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file8.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file9.md
+[success] Total time: 15 s, completed 09-Oct-2016 15:10:00
+       19.94 real        72.57 user         2.19 sys
+[info] Loading global plugins from /Users/dave/.sbt/0.13/plugins
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+[info] Loading project definition from /Users/dave/dev/projects/tut-perf/project
+[info] Set current project to tut-perf (in build file:/Users/dave/dev/projects/tut-perf/)
+[success] Total time: 0 s, completed 09-Oct-2016 15:10:05
+[info] Loading global plugins from /Users/dave/.sbt/0.13/plugins
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+[info] Loading project definition from /Users/dave/dev/projects/tut-perf/project
+[info] Set current project to tut-perf (in build file:/Users/dave/dev/projects/tut-perf/)
+[info] Updating {file:/Users/dave/dev/projects/tut-perf/}tut-perf...
+[info] Resolving org.scala-lang#scalap;2.11.8 ...
+[info] Done updating.
+[info] Running tut.TutMain /Users/dave/dev/projects/tut-perf/src/main/tut /Users/dave/dev/projects/tut-perf/target/scala-2.11/tut .*\.(md|markdown|txt|htm|html)
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file1.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file10.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file11.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file12.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file13.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file14.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file15.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file16.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file17.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file18.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file19.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file2.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file3.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file4.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file5.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file6.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file7.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file8.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file9.md
+[success] Total time: 15 s, completed 09-Oct-2016 15:10:24
+       19.40 real        74.19 user         2.22 sys
+[info] Loading global plugins from /Users/dave/.sbt/0.13/plugins
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+[info] Loading project definition from /Users/dave/dev/projects/tut-perf/project
+[info] Set current project to tut-perf (in build file:/Users/dave/dev/projects/tut-perf/)
+[success] Total time: 0 s, completed 09-Oct-2016 15:10:29
+[info] Loading global plugins from /Users/dave/.sbt/0.13/plugins
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+[info] Loading project definition from /Users/dave/dev/projects/tut-perf/project
+[info] Set current project to tut-perf (in build file:/Users/dave/dev/projects/tut-perf/)
+[info] Updating {file:/Users/dave/dev/projects/tut-perf/}tut-perf...
+[info] Resolving org.scala-lang#scalap;2.11.8 ...
+[info] Done updating.
+[info] Running tut.TutMain /Users/dave/dev/projects/tut-perf/src/main/tut /Users/dave/dev/projects/tut-perf/target/scala-2.11/tut .*\.(md|markdown|txt|htm|html)
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file1.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file10.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file11.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file12.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file13.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file14.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file15.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file16.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file17.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file18.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file19.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file2.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file3.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file4.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file5.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file6.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file7.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file8.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file9.md
+[success] Total time: 15 s, completed 09-Oct-2016 15:10:48
+       19.36 real        71.49 user         2.13 sys
+[info] Loading global plugins from /Users/dave/.sbt/0.13/plugins
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+[info] Loading project definition from /Users/dave/dev/projects/tut-perf/project
+[info] Set current project to tut-perf (in build file:/Users/dave/dev/projects/tut-perf/)
+[success] Total time: 0 s, completed 09-Oct-2016 15:10:53
+[info] Loading global plugins from /Users/dave/.sbt/0.13/plugins
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+[info] Loading project definition from /Users/dave/dev/projects/tut-perf/project
+[info] Set current project to tut-perf (in build file:/Users/dave/dev/projects/tut-perf/)
+[info] Updating {file:/Users/dave/dev/projects/tut-perf/}tut-perf...
+[info] Resolving org.scala-lang#scalap;2.11.8 ...
+[info] Done updating.
+[info] Running tut.TutMain /Users/dave/dev/projects/tut-perf/src/main/tut /Users/dave/dev/projects/tut-perf/target/scala-2.11/tut .*\.(md|markdown|txt|htm|html)
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file1.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file10.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file11.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file12.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file13.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file14.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file15.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file16.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file17.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file18.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file19.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file2.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file3.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file4.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file5.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file6.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file7.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file8.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file9.md
+[success] Total time: 15 s, completed 09-Oct-2016 15:11:13
+       20.13 real        70.72 user         2.13 sys
+[info] Loading global plugins from /Users/dave/.sbt/0.13/plugins
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+[info] Loading project definition from /Users/dave/dev/projects/tut-perf/project
+[info] Set current project to tut-perf (in build file:/Users/dave/dev/projects/tut-perf/)
+[success] Total time: 0 s, completed 09-Oct-2016 15:11:18
+[info] Loading global plugins from /Users/dave/.sbt/0.13/plugins
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+[info] Loading project definition from /Users/dave/dev/projects/tut-perf/project
+[info] Set current project to tut-perf (in build file:/Users/dave/dev/projects/tut-perf/)
+[info] Updating {file:/Users/dave/dev/projects/tut-perf/}tut-perf...
+[info] Resolving org.scala-lang#scalap;2.11.8 ...
+[info] Done updating.
+[info] Running tut.TutMain /Users/dave/dev/projects/tut-perf/src/main/tut /Users/dave/dev/projects/tut-perf/target/scala-2.11/tut .*\.(md|markdown|txt|htm|html)
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file1.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file10.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file11.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file12.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file13.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file14.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file15.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file16.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file17.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file18.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file19.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file2.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file3.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file4.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file5.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file6.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file7.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file8.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file9.md
+[success] Total time: 15 s, completed 09-Oct-2016 15:11:37
+       19.24 real        71.50 user         2.10 sys
+[info] Loading global plugins from /Users/dave/.sbt/0.13/plugins
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+[info] Loading project definition from /Users/dave/dev/projects/tut-perf/project
+[info] Set current project to tut-perf (in build file:/Users/dave/dev/projects/tut-perf/)
+[success] Total time: 0 s, completed 09-Oct-2016 15:11:41
+[info] Loading global plugins from /Users/dave/.sbt/0.13/plugins
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+[info] Loading project definition from /Users/dave/dev/projects/tut-perf/project
+[info] Set current project to tut-perf (in build file:/Users/dave/dev/projects/tut-perf/)
+[info] Updating {file:/Users/dave/dev/projects/tut-perf/}tut-perf...
+[info] Resolving org.scala-lang#scalap;2.11.8 ...
+[info] Done updating.
+[info] Running tut.TutMain /Users/dave/dev/projects/tut-perf/src/main/tut /Users/dave/dev/projects/tut-perf/target/scala-2.11/tut .*\.(md|markdown|txt|htm|html)
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file1.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file10.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file11.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file12.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file13.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file14.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file15.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file16.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file17.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file18.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file19.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file2.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file3.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file4.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file5.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file6.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file7.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file8.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file9.md
+[success] Total time: 14 s, completed 09-Oct-2016 15:12:01
+       19.14 real        72.49 user         2.16 sys
+[info] Loading global plugins from /Users/dave/.sbt/0.13/plugins
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+[info] Loading project definition from /Users/dave/dev/projects/tut-perf/project
+[info] Set current project to tut-perf (in build file:/Users/dave/dev/projects/tut-perf/)
+[success] Total time: 0 s, completed 09-Oct-2016 15:12:05
+[info] Loading global plugins from /Users/dave/.sbt/0.13/plugins
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+[info] Loading project definition from /Users/dave/dev/projects/tut-perf/project
+[info] Set current project to tut-perf (in build file:/Users/dave/dev/projects/tut-perf/)
+[info] Updating {file:/Users/dave/dev/projects/tut-perf/}tut-perf...
+[info] Resolving org.scala-lang#scalap;2.11.8 ...
+[info] Done updating.
+[info] Running tut.TutMain /Users/dave/dev/projects/tut-perf/src/main/tut /Users/dave/dev/projects/tut-perf/target/scala-2.11/tut .*\.(md|markdown|txt|htm|html)
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file1.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file10.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file11.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file12.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file13.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file14.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file15.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file16.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file17.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file18.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file19.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file2.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file3.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file4.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file5.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file6.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file7.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file8.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file9.md
+[success] Total time: 15 s, completed 09-Oct-2016 15:12:25
+       19.65 real        72.49 user         2.18 sys
+[info] Loading global plugins from /Users/dave/.sbt/0.13/plugins
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+[info] Loading project definition from /Users/dave/dev/projects/tut-perf/project
+[info] Set current project to tut-perf (in build file:/Users/dave/dev/projects/tut-perf/)
+[success] Total time: 0 s, completed 09-Oct-2016 15:12:30
+[info] Loading global plugins from /Users/dave/.sbt/0.13/plugins
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+[info] Loading project definition from /Users/dave/dev/projects/tut-perf/project
+[info] Set current project to tut-perf (in build file:/Users/dave/dev/projects/tut-perf/)
+[info] Updating {file:/Users/dave/dev/projects/tut-perf/}tut-perf...
+[info] Resolving org.scala-lang#scalap;2.11.8 ...
+[info] Done updating.
+[info] Running tut.TutMain /Users/dave/dev/projects/tut-perf/src/main/tut /Users/dave/dev/projects/tut-perf/target/scala-2.11/tut .*\.(md|markdown|txt|htm|html)
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file1.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file10.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file11.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file12.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file13.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file14.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file15.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file16.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file17.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file18.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file19.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file2.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file3.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file4.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file5.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file6.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file7.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file8.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file9.md
+[success] Total time: 15 s, completed 09-Oct-2016 15:12:49
+       19.23 real        72.37 user         2.19 sys
+[info] Loading global plugins from /Users/dave/.sbt/0.13/plugins
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+[info] Loading project definition from /Users/dave/dev/projects/tut-perf/project
+[info] Set current project to tut-perf (in build file:/Users/dave/dev/projects/tut-perf/)
+[success] Total time: 0 s, completed 09-Oct-2016 15:12:54
+[info] Loading global plugins from /Users/dave/.sbt/0.13/plugins
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+[info] Loading project definition from /Users/dave/dev/projects/tut-perf/project
+[info] Set current project to tut-perf (in build file:/Users/dave/dev/projects/tut-perf/)
+[info] Updating {file:/Users/dave/dev/projects/tut-perf/}tut-perf...
+[info] Resolving org.scala-lang#scalap;2.11.8 ...
+[info] Done updating.
+[info] Running tut.TutMain /Users/dave/dev/projects/tut-perf/src/main/tut /Users/dave/dev/projects/tut-perf/target/scala-2.11/tut .*\.(md|markdown|txt|htm|html)
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file1.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file10.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file11.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file12.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file13.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file14.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file15.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file16.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file17.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file18.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file19.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file2.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file3.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file4.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file5.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file6.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file7.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file8.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file9.md
+[success] Total time: 14 s, completed 09-Oct-2016 15:13:13
+       19.16 real        70.42 user         2.13 sys
+[info] Loading global plugins from /Users/dave/.sbt/0.13/plugins
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+[info] Loading project definition from /Users/dave/dev/projects/tut-perf/project
+[info] Set current project to tut-perf (in build file:/Users/dave/dev/projects/tut-perf/)
+[success] Total time: 0 s, completed 09-Oct-2016 15:13:17
+[info] Loading global plugins from /Users/dave/.sbt/0.13/plugins
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+[info] Loading project definition from /Users/dave/dev/projects/tut-perf/project
+[info] Set current project to tut-perf (in build file:/Users/dave/dev/projects/tut-perf/)
+[info] Updating {file:/Users/dave/dev/projects/tut-perf/}tut-perf...
+[info] Resolving org.scala-lang#scalap;2.11.8 ...
+[info] Done updating.
+[info] Running tut.TutMain /Users/dave/dev/projects/tut-perf/src/main/tut /Users/dave/dev/projects/tut-perf/target/scala-2.11/tut .*\.(md|markdown|txt|htm|html)
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file1.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file10.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file11.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file12.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file13.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file14.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file15.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file16.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file17.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file18.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file19.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file2.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file3.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file4.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file5.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file6.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file7.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file8.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file9.md
+[success] Total time: 15 s, completed 09-Oct-2016 15:13:37
+       19.81 real        72.26 user         2.18 sys
+[info] Loading global plugins from /Users/dave/.sbt/0.13/plugins
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+[info] Loading project definition from /Users/dave/dev/projects/tut-perf/project
+[info] Set current project to tut-perf (in build file:/Users/dave/dev/projects/tut-perf/)
+[success] Total time: 0 s, completed 09-Oct-2016 15:13:42
+[info] Loading global plugins from /Users/dave/.sbt/0.13/plugins
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+[info] Loading project definition from /Users/dave/dev/projects/tut-perf/project
+[info] Set current project to tut-perf (in build file:/Users/dave/dev/projects/tut-perf/)
+[info] Updating {file:/Users/dave/dev/projects/tut-perf/}tut-perf...
+[info] Resolving org.scala-lang#scalap;2.11.8 ...
+[info] Done updating.
+[info] Running tut.TutMain /Users/dave/dev/projects/tut-perf/src/main/tut /Users/dave/dev/projects/tut-perf/target/scala-2.11/tut .*\.(md|markdown|txt|htm|html)
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file1.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file10.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file11.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file12.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file13.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file14.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file15.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file16.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file17.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file18.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file19.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file2.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file3.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file4.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file5.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file6.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file7.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file8.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file9.md
+[success] Total time: 15 s, completed 09-Oct-2016 15:14:02
+       19.66 real        73.74 user         2.19 sys
+[info] Loading global plugins from /Users/dave/.sbt/0.13/plugins
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+[info] Loading project definition from /Users/dave/dev/projects/tut-perf/project
+[info] Set current project to tut-perf (in build file:/Users/dave/dev/projects/tut-perf/)
+[success] Total time: 0 s, completed 09-Oct-2016 15:14:06
+[info] Loading global plugins from /Users/dave/.sbt/0.13/plugins
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+[info] Loading project definition from /Users/dave/dev/projects/tut-perf/project
+[info] Set current project to tut-perf (in build file:/Users/dave/dev/projects/tut-perf/)
+[info] Updating {file:/Users/dave/dev/projects/tut-perf/}tut-perf...
+[info] Resolving org.scala-lang#scalap;2.11.8 ...
+[info] Done updating.
+[info] Running tut.TutMain /Users/dave/dev/projects/tut-perf/src/main/tut /Users/dave/dev/projects/tut-perf/target/scala-2.11/tut .*\.(md|markdown|txt|htm|html)
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file1.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file10.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file11.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file12.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file13.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file14.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file15.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file16.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file17.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file18.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file19.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file2.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file3.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file4.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file5.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file6.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file7.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file8.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file9.md
+[success] Total time: 14 s, completed 09-Oct-2016 15:14:25
+       18.95 real        71.53 user         2.17 sys
+[info] Loading global plugins from /Users/dave/.sbt/0.13/plugins
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+[info] Loading project definition from /Users/dave/dev/projects/tut-perf/project
+[info] Set current project to tut-perf (in build file:/Users/dave/dev/projects/tut-perf/)
+[success] Total time: 0 s, completed 09-Oct-2016 15:14:30
+[info] Loading global plugins from /Users/dave/.sbt/0.13/plugins
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+[info] Loading project definition from /Users/dave/dev/projects/tut-perf/project
+[info] Set current project to tut-perf (in build file:/Users/dave/dev/projects/tut-perf/)
+[info] Updating {file:/Users/dave/dev/projects/tut-perf/}tut-perf...
+[info] Resolving org.scala-lang#scalap;2.11.8 ...
+[info] Done updating.
+[info] Running tut.TutMain /Users/dave/dev/projects/tut-perf/src/main/tut /Users/dave/dev/projects/tut-perf/target/scala-2.11/tut .*\.(md|markdown|txt|htm|html)
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file1.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file10.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file11.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file12.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file13.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file14.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file15.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file16.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file17.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file18.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file19.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file2.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file3.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file4.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file5.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file6.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file7.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file8.md
+[tut] compiling: /Users/dave/dev/projects/tut-perf/src/main/tut/file9.md
+[success] Total time: 15 s, completed 09-Oct-2016 15:14:49
+       19.60 real        74.55 user         2.19 sys
+dave@Jade ~/d/p/tut-perf>
+
+============================================================
+
+       18.73 real        68.84 user         2.09 sys
+       18.83 real        71.96 user         2.15 sys
+       20.01 real        74.75 user         2.21 sys
+       19.54 real        69.71 user         2.21 sys
+       19.91 real        76.63 user         2.21 sys
+       19.06 real        74.10 user         2.16 sys
+       19.69 real        72.30 user         2.11 sys
+       19.49 real        75.25 user         2.23 sys
+       19.12 real        69.89 user         2.07 sys
+       19.70 real        73.30 user         2.19 sys
+       19.55 real        71.04 user         2.13 sys
+       18.92 real        72.02 user         2.13 sys
+       19.94 real        72.57 user         2.19 sys
+       19.40 real        74.19 user         2.22 sys
+       19.36 real        71.49 user         2.13 sys
+       20.13 real        70.72 user         2.13 sys
+       19.24 real        71.50 user         2.10 sys
+       19.14 real        72.49 user         2.16 sys
+       19.65 real        72.49 user         2.18 sys
+       19.23 real        72.37 user         2.19 sys
+       19.16 real        70.42 user         2.13 sys
+       19.81 real        72.26 user         2.18 sys
+       19.66 real        73.74 user         2.19 sys
+       18.95 real        71.53 user         2.17 sys
+       19.60 real        74.55 user         2.19 sys
